@@ -1,0 +1,2 @@
+# algobase
+C++ algorithm library

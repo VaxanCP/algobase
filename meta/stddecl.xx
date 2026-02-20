@@ -1,0 +1,44 @@
+#pragma once
+// makecode
+namespace views = std::views;
+namespace chrono = std::chrono;
+using std::array;
+using std::bitset;
+using std::cin;
+using std::complex;
+using std::cout;
+using std::deque;
+using std::endl;
+using std::gcd;
+using std::lcm;
+using std::map;
+using std::max;
+using std::min;
+using std::move;
+using std::multimap;
+using std::multiset;
+using std::nullopt;
+using std::optional;
+using std::pair;
+using std::queue;
+using std::set;
+using std::span;
+using std::string;
+using std::string_view;
+using std::swap;
+using std::tie;
+using std::to_string;
+using std::tuple;
+using std::vector;
+using wint = int64_t;
+using uint = uint32_t;
+template <typename Tp>
+using stack = std::stack<Tp, std::vector<Tp>>;
+template <typename Key, typename Value, typename Hash = std::hash<Key>>
+using umap = std::unordered_map<Key, Value, Hash>;
+template <typename Key, typename Hash = std::hash<Key>>
+using uset = std::unordered_set<Key, Hash>;
+template <typename Tp, typename Comp = std::less<Tp>>
+using max_heap = std::priority_queue<Tp, std::vector<Tp>, Comp>;
+template <typename Tp, typename Comp = std::greater<Tp>>
+using min_heap = std::priority_queue<Tp, std::vector<Tp>, Comp>;
